@@ -1,0 +1,21 @@
+{
+    "name": "eslint-config-kaola-vue",
+    "version": "0.0.1",
+    "description": "ESLint shareable config for Vue to be used with eslint-config-kaola",
+    "licence": "MIT",
+    "author": "everywill",
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "kaola"
+    ],
+    "engines": {
+        "node": ">=4"
+    },
+    "peerDependencies": {
+        "eslint": ">=4"
+    }
+}
