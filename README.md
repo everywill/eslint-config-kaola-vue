@@ -28,6 +28,24 @@ Or to .eslintrc:
 }
 ```
 
+## Tips
+1. If you already use other parser (e.g. `"parser": "babel-eslint"`), please move it into `parserOptions`, so it doesn't collide with the `vue-eslint-parser`:
+
+```diff
+- "parser": "babel-eslint",
+  "parserOptions": {
++     "parser": "babel-eslint",
+      "ecmaVersion": 2017,
+      "sourceType": "module"
+  }
+```
+2. Make sure you don't have `eslint-plugin-html` in your config. The `eslint-plugin-html` extracts the content from `<script>` tags, but `eslint-vue-plugin` requires `<script>` tags and `<template>` tags in order to distinguish template and script in single file components:
+
+```diff
+"plugins": [
+-   "html"
+]
+```
 
 ## Related
 
