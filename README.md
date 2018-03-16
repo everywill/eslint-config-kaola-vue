@@ -50,4 +50,4 @@ Or to .eslintrc:
 ## Related
 
 - [eslint-config-kaola](https://github.com/kaola-fed/eslint-config-kaola) - ESLint shareable config for Kaola
-- [Kaola](https://github.com/kaola-fed)
+- [Kaola-fed](https://github.com/kaola-fed)
