@@ -3,6 +3,9 @@
     "version": "0.0.1",
     "description": "ESLint shareable config for Vue to be used with eslint-config-kaola",
     "licence": "MIT",
+    "scripts": {
+        "test": "ava"
+    },
     "author": "everywill",
     "files": [
         "index.js"
@@ -17,5 +20,12 @@
     },
     "peerDependencies": {
         "eslint": ">=4"
+    },
+    "devDependencies": {
+        "ava": "^0.25.0",
+        "eslint": "^4.18.2",
+        "eslint-plugin-vue": "^4.3.0",
+        "is-plain-obj": "^1.1.0",
+        "temp-write": "^3.4.0"
     }
 }
