@@ -48,7 +48,7 @@ Or to .eslintrc:
 -   "html"
 ]
 ```
-
+3.Make sure your tool is set to lint .vue files.VSCode targets only JavaScript or HTML files by default. You have to add {"autoFix": true, "language": "vue"} into eslint.validate entry.
 ## Related
 
 - [eslint-config-kaola](https://github.com/kaola-fed/eslint-config-kaola) - ESLint shareable config for Kaola
