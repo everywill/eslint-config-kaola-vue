@@ -1,5 +1,7 @@
 # eslint-config-kaola-vue
 
+[![Build Status](https://travis-ci.org/everywill/eslint-config-kaola-vue.svg?style=flat-square)](https://travis-ci.org/everywill/eslint-config-kaola-vue)
+
 ## Install
 
 ```
